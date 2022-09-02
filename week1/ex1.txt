@@ -1,0 +1,5 @@
+/usr/bin/ischroot
+/usr/bin/bccmd
+/usr/bin/pwdecrypt
+/usr/bin/x86_64-linux-gnu-objcopy
+/usr/bin/pycompile

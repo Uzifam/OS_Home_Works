@@ -1,5 +1,5 @@
-  588  history
-  589  vi ex2.sh
-  590  find /usr/bin "gcc" | tail -n 5 > ex1.txt
-  591  history | tail -n 5 > ex1.txt
-  592  history | tail -n 5 > ex2.txt
+  133  ./ex2.sh
+  134  vi ex2.sh
+  135  ./ex2.sh
+  136  chmod ugo+x ex2.sh
+  137  ./ex2.sh

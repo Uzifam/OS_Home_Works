@@ -1,5 +1,725 @@
-  133  ./ex2.sh
-  134  vi ex2.sh
-  135  ./ex2.sh
-  136  chmod ugo+x ex2.sh
-  137  ./ex2.sh
+    1  sudo su
+    2  ya whoami
+    3  cd ~/arcadia
+    4  arc mount ~/arcadia
+    5  mkdir -p ~/.arc
+    6  chmod 700 ~/.arc
+    7  echo -n y1_AQAD-qJSL2hxAAAgxAAAAAAAKC9dReLkV6I0TYiGj9hrnx2cGtr1pps > ~/.arc/token
+    8  chmod 600 ~/.arc/token
+    9  arc mount ~/arcadia
+   10  mkdir -p ~/.arc
+   11  chmod 700 ~/.arc
+   12  echo -n y1_AQAD-qJSL2hxAAAgxAAAAAAAKC9dReLkV6I0TYiGj9hrnx2cGtr1pps > ~/.arc/token
+   13  chmod 600 ~/,arc/token
+   14  chmod 600 ~/.arc/token
+   15  arc mount ~/arcadia
+   16  cd ~/arcadia
+   17  ln -s ~/arcadia/ya /usr/local/bin/ya # Предполагается, что исходные коды лежат в ~/arcadia
+   18  ya whoami
+   19  ya whoami --save-token
+   20  ls
+   21  ls -a
+   22  cd ya
+   23  ya whoami --save-token
+   24  arc install ya
+   25  mkdir -p ~/.ya_token
+   26  chmod 700 ~/.ya_token
+   27  echo -n y1_AQAD-qJSL2hxAAAgxAAAAAAAKC9dReLkV6I0TYiGj9hrnx2cGtr1pps > ~/.ya_token/token
+   28  chmod 600 ~/.ya_token/token
+   29  ya whoami
+   30  echo "alias ya='$HOME/arcadia/ya'" >> ~/.bashrc && source ~/.bashrc
+   31  echo 'PATH="$HOME/arcadia:$PATH"' >> ~/.bashrc && source ~/.bashrc
+   32  ya
+   33  ya whoami
+   34  ya whoami --save-token
+   35  ssh-add ~/.ssh/id_rsa
+   36  asd
+   37  ssh-add ~/.ssh/id_rsa
+   38  ssh-add /home/nfedorovich/.ssh/id_rsa
+   39  cd
+   40  cd /home/nfedorovich/.ssh
+   41  ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa -C nfedorovich@yandex-team.ru
+   42  cat ~/.ssh/id_rsa.pub
+   43  ssh-add ~/.ssh/id_rsa
+   44  ssh-add && arc token store
+   45  arc unmount arcadia
+   46  arc mount ~/arcadia
+   47  cd ~/arcadi
+   48  cd ~/arcadia
+   49  ln -s ~/arcadia/ya /usr/local/bin/ya # Предполагается, что исходные коды лежат в ~/arcadia
+   50  echo "alias ya='$HOME/arcadia/ya'" >> ~/.bashrc && source ~/.bashrc
+   51  ya whoami --save-token
+   52  ya whoami
+   53  mkdir -p home/nfedorovich/.ya_token
+   54  chmod 700 ~/.ya_token
+   55  mkdir ~/.ya_token
+   56  chmod 700 ~/.ya_token
+   57  echo -n y1_AQAD-qJSL2hxAAAPMAAAAAAAKFZTJnGhrLFGRIupnsQk_jCoRE20Hcw > ~/.ya_token/token
+   58  chmod 600 ~/.ya_token/token
+   59  ya whoami
+   60  echo 'PATH="$HOME/arcadia:$PATH"' >> ~/.bashrc && source ~/.bashrc
+   61  ssh-add ~/.ssh/id_rsa
+   62  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7FCD11186050CD1A
+   63  sudo apt update
+   64  sudo apt -y install yandex-archive-keyring
+   65  sudo apt update
+   66  sudo apt -y install python3 python-is-python3sudo apt update
+   67  sudo apt -y install yandex-arc-launcher
+   68  arc token store
+   69  arc mount ~/arcadia
+   70  ln -s ~/arcadia/ya /usr/local/bin/ya 
+   71  ya whoami
+   72  ln -s ~/arcadia/ya /home/nfedorovich/.ya_token/token 
+   73  ln -sf ~/arcadia/ya /home/nfedorovich/.ya_token/token 
+   74  ya whoami
+   75  ya whoami --save-token
+   76  ln -s ~/arcadia/ya /usr/local/bin/ya # Предполагается, что исходные коды лежат в ~/arcadia
+   77  ln -sf ~/arcadia/ya /usr/local/bin/ya # Предполагается, что исходные коды лежат в ~/arcadia
+   78  sudo su
+   79  ya whoami
+   80  ya whoami --save-token
+   81  ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa -C nfedorovich@yandex-team.ru
+   82  ssh-add ~/.ssh/id_rsa
+   83  cat ~/.ssh/id_rsa.pub
+   84  ya whoami --save-token
+   85  ssh-add && arc token store
+   86  arc co -b CARFAX-2727
+   87  arc mount ~/arcadia
+   88  cd ~/arcadia
+   89  arc co -b CARFAX-2727
+   90  ya whoami
+   91  ya whoami --save-token
+   92  arc mount ~/arcadia
+   93  cd arcadia
+   94  ya whoami
+   95  ya whoami --save-token
+   96  ya whoami
+   97  cd
+   98  cd arcadia
+   99  cd
+  100  cd arcadia
+  101  ya whoami
+  102  scala
+  103  sudo apt install scala
+  104  scala
+  105  sudo su
+  106  cd arcadia
+  107  arc mount ~/arcadia
+  108  cd arcadia
+  109  cd ~/arcadia
+  110  arc co -b CARFAX-2727 
+  111  arc co -b CARFAX-2727
+  112  arc status
+  113  cd arcadia
+  114  cd ~/arcadia
+  115  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  116  sudo add-apt-repository ppa:blaze/rtbth-dkms
+  117  sudo apt update
+  118  sudo apt install rtbth-dkms
+  119  sudo vim /etc/rc.local
+  120  sudo apt install vim
+  121  sudo vim /etc/rc.local
+  122  sudo chmod 777 /etc/rc.local
+  123  sudo vim /etc/rc.local
+  124  sudo openvpn --config /home/$nfedorovich/.certs/openvpn.conf --askpass
+  125  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  126  arc mount ~/arcadia
+  127  cd ~/arcadia
+  128  ya whoami --save-token
+  129  bazel
+  130  arc install bazel
+  131  св
+  132  cd
+  133  sudo curl -Lo /usr/local/bin/bazel    https://github.com/bazelbuild/bazelisk/releases/download/v1.11.0/bazelisk-linux-amd64
+  134  sudo curl -Lo /usr/local/bin/buildozer    https://github.com/bazelbuild/buildtools/releases/download/5.1.0/buildozer-linux-amd64
+  135  sudo apt update
+  136  sudo apt install curl
+  137  curl -OC - https://releases.ubuntu.com/20.04.2.0/ubuntu-20.04.2.0-desktop-amd64.iso
+  138  sudo curl -Lo /usr/local/bin/bazel    https://github.com/bazelbuild/bazelisk/releases/download/v1.11.0/bazelisk-linux-amd64
+  139  sudo chmod +x /usr/local/bin/bazel
+  140  sudo curl -Lo /usr/local/bin/buildozer    https://github.com/bazelbuild/buildtools/releases/download/5.1.0/buildozer-linux-amd64
+  141  sudo chmod +x /usr/local/bin/buildozer
+  142  brew install docker colima
+  143  colima start # эту команду необходимо выполнять после каждой перезагрузки
+  144  docker context create dev --docker host=ssh://<username>@<username>-01-dev.sas.yp-c.yandex.net # подставить свое имя и виртуалку
+  145  docker context use dev
+  146  sudo apt install gnome-terminal
+  147  sudo apt-get update
+  148  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  149    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  150  sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+  151  sudo apt-get install /home/nfedorovich/Downloads/docker-desktop-<version>-<arch>.deb
+  152  sudo mv /home/nfedorovich/Downloads/docker-desktop-4.11.0-amd64.deb /root
+  153  sudo apt-get install docker-desktop-4.11.0-amd64.deb
+  154  sudo apt-get install ~/docker-desktop-4.11.0-amd64.deb
+  155  cker context create dev --docker host=ssh://<username>@<username>-01-dev.sas.yp-c.yandex.net 
+  156  sudo usermod -a -G docker nfedorovich 
+  157  $ docker login -u $(whoami) registry.yandex.net
+  158  docker login -u $(whoami) registry.yandex.net
+  159  sudo curl -Lo /usr/local/bin/buildozer    https://github.com/bazelbuild/buildtools/releases/download/5.1.0/buildozer-linux-amd64
+  160  sudo chmod +x /usr/local/bin/buildozer
+  161  docker context use local
+  162  sudo groupadd docker  
+  163  sudo gpasswd -a nfedorovich docker
+  164  scala_test(
+  165  sudo apt -y install build-essential
+  166  curl -fL https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
+  167  ya whoami
+  168  sudo install /home/nfedorovich/idea/idea-IU-222.3345.118
+  169  sudo tar xf ~/Downloads/ideaIU-2021.3.3.tar.gz -C /opt/
+  170  sudo ln -s /opt/ideaIC-2021.3.3/bin/webstorm.sh /usr/local/bin/IntelliJIDEA
+  171  /usr/local/bin/IntelliJIDEA
+  172  sudo ln -s /opt/idea-IU-213.7172.25/bin /usr/local/bin/IntelliJIDEA
+  173  /usr/local/bin/IntelliJIDEA
+  174  sudo snap remove intellij-idea-community
+  175  sudo snap install intellij-idea-ultimate --classic 2021.3.3
+  176  sudo snap install intellij-idea-ultimate --classic --edge 2021.3.3
+  177  sudo snap install intellij-idea-ultimate --classic --edge 2021
+  178  sudo ln -s /opt/idea-IU-213.7172.25/bin/webstorm.sh /usr/local/bin/IntelliJIDEA
+  179  /usr/local/bin/IntelliJIDEA
+  180  sudo tar xf ~/Downloads/ideaIC-2021.3.3.tar.gz -C /opt/
+  181  sudo tar xf ~/Downloads/ideaIU-2021.3.3.tar.gz -C /opt/
+  182  sudo mv-r ~/idea-IU-213.7172.25 /usr/local/bin
+  183  sudo mv ~/idea-IU-213.7172.25 /usr/local/bin
+  184  cd 
+  185  cd /usr/local/bin
+  186  cd /usr/local/bin/idea-IU-213.7172.25/bin
+  187  ./idea.sh
+  188  brew install bazelisk
+  189  sudo curl -Lo /usr/local/bin/bazel    https://github.com/bazelbuild/bazelisk/releases/download/v1.11.0/bazelisk-linux-amd64
+  190  sudo chmod +x /usr/local/bin/bazel
+  191  sudo curl -Lo /usr/local/bin/buildozer    https://github.com/bazelbuild/buildtools/releases/download/5.1.0/buildozer-linux-amd64
+  192  sudo chmod +x /usr/local/bin/buildozer
+  193  cd /usr/local/bin/idea-IU-213.7172.25/bin
+  194  ./idea.sh
+  195  arc commit -a -m "CARFAX-2727 изменил earliestKmAgeDate на dateOfPlacement"
+  196  arc merge request
+  197  arc --help
+  198  arc co -b CARFAX-2727
+  199  arc push
+  200  arc pr create
+  201  sudo service bluetooth start
+  202  sudo apt-get install blueman bluez-utils bluez bluetooth
+  203  sudo service bluetooth restart
+  204  sudo apt-get install blueman
+  205  sudo apt-get install bluetooth bluez bluez-tools rfkill rfcomm
+  206  sudo service bluetooth start
+  207  sudo rfkill list
+  208  cd 
+  209  ./idea.sh
+  210  cd /opt
+  211  cd /opt/idea-IU-213.7172.25
+  212  ./idea.sh
+  213  /cd usr/local/bin
+  214  ./idea.sh
+  215  /cd usr/local/bin/idea-IU-213.7172.25
+  216  ./idea.sh
+  217  cd /opt
+  218  ./idea_sh
+  219  cd /opt/idea-IU-213.7172.25
+  220  ./idea_sh
+  221  arc pr view
+  222  cd ~/arcadia
+  223  arc pr view
+  224  arc status
+  225  cd /home/nfedorovich/idea/idea-IU-222.3345.118/bin
+  226  cd /home/nfedorovich
+  227  cd ~/idea
+  228  cd ~/Idea
+  229  cd ~/idea-IU-222.3345.118
+  230  cd ~/Idea/idea-IU-222.3345.118
+  231  cd ~/Idea/idea-IU-222.3345.118/bin
+  232  ./idea.sh
+  233  cd /opt/idea-IU-213.7172.25/bin
+  234  ./idea.sh
+  235  arc co -b CARFAX-2893
+  236  arc status
+  237  arc add
+  238  arc add .
+  239  arc push
+  240  arc pr create --help
+  241  arc pr create -m
+  242  arc pr create --auto
+  243  arc push
+  244  arc pr create -m "CARFAX-2893 певёл BCR Motors со старого импорта в новый"
+  245  arc pr create -m "CARFAX-2893 певёл UService со старого импорта в новый"
+  246  arc push
+  247  arc add .
+  248  arc push
+  249  arc pr create -m "CARFAX-2893 певёл UService со старого импорта в новый"
+  250  arc push
+  251  arc pr create -m "CARFAX-2893 певёл UService со старого импорта в новый"
+  252  make format
+  253  arc push
+  254  make format
+  255  arc push
+  256  arc push --рудз
+  257  arc push --help
+  258  arc push
+  259  make format
+  260  make formate
+  261  make format
+  262  arc pr create -m "CARFAX-2893 певёл Atlas со старого импорта в новый"
+  263  arc push
+  264  arc pull trunk
+  265  arc rebase trunk
+  266  arc pull trunk
+  267  arc rebase trunk
+  268  arc push
+  269  arc push --force
+  270  arc push
+  271  arc rebase trunk
+  272  arc pull trunk
+  273  arc rebase trunk
+  274  arc push
+  275  arc push --force
+  276  arc push
+  277  make format
+  278  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  279  ./idea
+  280  ./idea.sh
+  281  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  282  sudo snap install wine-platform-5-staging
+  283  sudo snap refresh --candidate wine-platform-5-staging
+  284  sudo snap install wine-platform-runtime
+  285  sudo snap refresh --candidate wine-platform-runtime
+  286  sudo snap install leagueoflegends --edge --devmode
+  287  arc add
+  288  arc commit -m "Изменил способ импорта со страрого на новый партнёра CarPrice"
+  289  arc push
+  290  arc pr create
+  291  arc mount ~/arcadia
+  292  cd ~/arcadia
+  293  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  294  cd /home
+  295  ls
+  296  cd /home/nfedorovich
+  297  cd /Idea
+  298  cd /idea
+  299  cd ~/Idea
+  300  cd ~/Idea/idea-IU-222.3345.118/bin
+  301  /.idea.sh
+  302  ./idea.sh
+  303  sudo apt remove zoom
+  304  sudo apt install ./zoom_amd64.deb
+  305  wget https://zoom.us/client/latest/zoom_amd64.deb
+  306  sudo apt install ./zoom_amd64.deb
+  307  zoom
+  308  sudo rm /etc/NetworkManager/system-connections/UniversityStudent
+  309  cd ~/idea/idea-IU-222.3345.118/bin
+  310  cd ~/Idea/idea-IU-222.3345.118/bin
+  311  ./idea.sh
+  312  arc mount ~/arcadia
+  313  cd ~/arcadia
+  314  ./idea.sh
+  315  cd ~/Idea/idea-IU-222.3345.118/bin
+  316  ./idea.sh
+  317  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  318  scala
+  319  
+  320  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  321  sudo mount arcadia
+  322  arc mount ~/arcadia
+  323  cd ~/arcadia
+  324  cd ~/idea
+  325  cd /idea
+  326  cd
+  327  cd /idea
+  328  cd ~/idea
+  329  cd ~/Idea
+  330  cd ~/Idea/idea-IU-222.3345.118/bin
+  331  ./idea.sh
+  332  cd ~/Idea
+  333  cd ~/Idea/idea-IU-222.3345.118/bin
+  334  ./idea.sh
+  335  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  336  arc mount ~/arcadia
+  337  cd ~/arcadia
+  338  sudo su
+  339  vi namelist
+  340  ls
+  341  sort namelist | sort
+  342  whoami
+  343  sort -n -r namelist < namelist.sorted
+  344  sort -n -r namelist > namelist.sorted
+  345  ls
+  346  vi namelist.sorted
+  347  man man
+  348  man -h
+  349  c
+  350  cd
+  351  ls
+  352  cd ~/Idea/idea-IU-222.3345.118/bin
+  353  ls
+  354  cd /Computer
+  355  cd
+  356  cd ~/Computer
+  357  cd Computer
+  358  cd /Computer
+  359  vi namelist
+  360  vi namelist &
+  361  fg
+  362  vi namelist &
+  363  vi namelist2 &
+  364  fg
+  365  scala
+  366  sudo su
+  367  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  368  arc mount ~/arcadia
+  369  cd Idea
+  370  cd idea-IU-222.3345.118
+  371  cd bin
+  372  ./idea.sh
+  373  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  374  arc mount ~arcadia
+  375  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  376  arc mount ~/arcadia
+  377  cd Idea
+  378  cd idea-IU-222.3345.118
+  379  cd bin
+  380  ./idea.sh
+  381  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  382  arc mount ~/arcadia
+  383  cd Idea
+  384  cd idea-IU-222.3345.118
+  385  cd bin
+  386  ./idea.sh
+  387  make format
+  388  arc status
+  389  make format
+  390  ,/idea.sh
+  391  ./idea.sh
+  392  arc checkout CARFAX-2893-id-23
+  393  make format
+  394  arc checkout CARFAX-2893
+  395  make format
+  396  arc status
+  397  arc checkout trunk
+  398  arc checkout CARFAX-2893
+  399  scripts/format-scala.sh: line 13: 28908 Segmentation fault      scripts/scalafmt.sh --mode any --respect-project-filters "@${files_to_check}"
+  400  make: *** [Makefile:13: format/scala] Error 139
+  401  arc tag v1.0.0
+  402  arc tag -d v1.0.0
+  403  arc reset --soft HEAD~1
+  404  make format
+  405  arc unmount arcadia
+  406  arc mount ~/arcadia
+  407  arc unmount ~/arcadia
+  408  arc mount ~/arcadia
+  409  sudo su
+  410  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  411  arc mount ~/arcadia
+  412  cd Idea
+  413  cd idea-IU-222.3345.118
+  414  cd bin
+  415  ./idea.sh
+  416  sudo apt-get install git
+  417  git --version
+  418  git config --global user.name "Uzifam"
+  419  git config --global user.email nikita.fedorovich2003@gmail.com
+  420  ls -al ~/.ssh
+  421  eval "$(ssh-agent -s)"
+  422  ssh-add ~/.ssh/id_rsa
+  423  clip < ~/.ssh/id_rsa.pub
+  424  sudo apt install geomview
+  425  clip < ~/.ssh/id_rsa.pub
+  426  cd
+  427  clip < ~/.ssh/id_rsa.pub
+  428  ssh-keygen -t ed25519 -C "nikita.fedorovich2003@gmail.com"
+  429  ssh-add ~/.ssh/id_ed25519
+  430  clip < ~/.ssh/id_ed25519.pub
+  431  md OS
+  432  mdir OS
+  433  md OS
+  434  mkdir OS
+  435  cd OS
+  436  git clone git@github.com:Uzifam/OS_Home_Works.git
+  437  git status
+  438  git checkout master
+  439  .git
+  440  git checkout master
+  441  git clone git@github.com:Uzifam/OS_Home_Works.git
+  442  echo "# OS_Home_Works" >> README.md
+  443  git init
+  444  git add README.md
+  445  git commit -m "first commit"
+  446  git branch -M main
+  447  git remote add origin https://github.com/Uzifam/OS_Home_Works.git
+  448  git push -u origin main
+  449  git remote add origin https://github.com/Uzifam/OS_Home_Works.git
+  450  git push -u origin main
+  451  git status
+  452  git add "1lab"
+  453  git add.
+  454  git add .
+  455  git commit -m "1 Lab"
+  456  git add
+  457  git add .
+  458  git statis
+  459  git status
+  460  git add 1_lab
+  461  arc status
+  462  git status
+  463  git add .
+  464  git commit -m "1_lab"
+  465  git mkdir week1
+  466  git config --list
+  467  git config --global color.ui true
+  468  git config --global color.status auto
+  469  git config --global color.branch auto
+  470  ls
+  471  cd OS_Home_Works
+  472  mkdir week1
+  473  ls
+  474  rm 1_lab
+  475  rm -r 1_lab
+  476  git add .
+  477  git status
+  478  git add week1
+  479  arc pr create
+  480  git pr create
+  481  git commit -m "week1"
+  482  git add -A
+  483  git status
+  484  cd week1
+  485  ls -a
+  486  git add text.txt
+  487  git status
+  488  git add .
+  489  git push origin master
+  490  git pull origin master
+  491  git log
+  492  git status
+  493  git restore --staged text.txt
+  494  git add .
+  495  git status
+  496  add ~/week1/text.txt
+  497  git add ~/week1/text.txt
+  498  git add ~/OS/OS_Home_Works/week1/text.txt
+  499  git status
+  500  git commit -m "TEST"
+  501  git creat
+  502  git log
+  503  git add Week1.txt
+  504  git status
+  505  git push
+  506  arc commit "dlt dir lab1"
+  507  git commit -m "dlt dir lab1"
+  508  git push
+  509  git add .
+  510  git commit -m "dlt dir lab1"
+  511  git push
+  512  /OS/OS_Home_Works/1_lab
+  513  git commit -m 'Удалена директория folder'
+  514  git add .
+  515  git commit -m 'Удалена директория 1_lab'
+  516  git push
+  517  find --help
+  518  find /usr/bin "gcc"
+  519  find /usr/bin "gcc" -n 5
+  520  find /usr/bin "gcc" | tail -n 5
+  521  find /usr/bin "gcc" | tail -n 5 > ex1.txt
+  522  mkdir ex1.txt
+  523  mkdir ex1.sh
+  524  cd ex1.sh
+  525  vi
+  526  vi ex1.sh
+  527  git add .
+  528  cd
+  529  cd ~/OS/OS_Home_Works/week1
+  530  git
+  531  git add .
+  532  git commit -m "First ex"
+  533  git push
+  534  git add .
+  535  cd ~/OS/OS_Home_Works
+  536  git add .
+  537  git push
+  538  git pull
+  539  git merge
+  540  git push
+  541  git pull
+  542  git push
+  543  git commit "Test push"
+  544  git add .
+  545  git pull
+  546  git merge
+  547  git merge -a
+  548  git status
+  549  git restore
+  550  git restore --stages
+  551  git restore --stages .
+  552  git restore /OS_Home_Works/Week1 
+  553  git restore ~/OS/OS_Home_Works/Week1
+  554  git restore --stages ~/OS/OS_Home_Works
+  555  git restore
+  556  git status
+  557  git pull
+  558  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf -askpass
+  559  Ya_P@ssw0rd
+  560  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf -askpass
+  561  sudo su
+  562  sudo su
+  563  sudo openvpn --config /home/nfedorovich/.certs/openvpn.conf --askpass
+  564  arc mount ~/arcadia
+  565  git config --global user.name "Uzifam"
+  566  git config --global user.email "nikita.fedorovich2003@gmail.com
+  567  "
+  568  git config --global core.autocrlf true
+  569  git config --global core.safecrlf true
+  570  ls
+  571  ls -a
+  572  cd OS
+  573  ls
+  574  cd OS_Home_Works
+  575  ls
+  576  git status
+  577  git pull
+  578  git merge
+  579  git stash drop
+  580  git pull -f
+  581  git add .
+  582  git stash push --include-untracked
+  583  git pull -f
+  584  ls
+  585  git add week1
+  586  git commit -m "Lab1"
+  587  git push
+  588  cd week1
+  589  ls
+  590  hystory
+  591  history
+  592  vi ex2.sh
+  593  find /usr/bin "gcc" | tail -n 5 > ex1.txt
+  594  history | tail -n 5 > ex1.txt
+  595  history | tail -n 5 > ex2.txt
+  596  git commit -m "Second task"
+  597  git add .
+  598  git add week1/ex2.sh
+  599  git add ~/OS/OS_Home_Works/week1/ex2.sh
+  600  git commit -m "Second task"
+  601  git add .
+  602  git config --global core.autocrlf false
+  603  git add .
+  604  git commit -m "Second task"
+  605  git push
+  606  ls
+  607  cd OS
+  608  ls
+  609  cd OS_Home_Works
+  610  ls
+  611  cd week1
+  612  git status
+  613  ./ex1.sh
+  614  ls
+  615  ./ex1.sh
+  616  ./ex2.sh
+  617  history | tail -n 5 > ex2.txt
+  618  git add .
+  619  git push
+  620  git commit -m "Second Task"
+  621  git push
+  622  vi ex3.sh
+  623  sh ex3.sh
+  624  date | sleep 3
+  625  sh ex3.sh
+  626  git commit -m "Third Task"
+  627  git add .
+  628  git commit -m "Third Task"
+  629  git push
+  630  gegit ~/week1/main.c
+  631  gedit ~/week1/main.c
+  632  gedit ~/OS/OS_Home_Works/week1/main.c
+  633  vi ex4.sh
+  634  sh ex4.sh
+  635  gcc ./main.c
+  636  sh ex4.sh
+  637  vi ex4
+  638  ./ex4
+  639  chmod +x ex4
+  640  ./ex4
+  641  vi ex4
+  642  gcc ./main.c -o ex4
+  643  chmod +x ex4
+  644  ./ex4
+  645  git commit -m " commit -m "Forth Task"
+
+"
+  646  git add .
+  647  git commit -m "Forth Task"
+  648  git push
+  649  arc mount ~/arcadia
+  650  ./ex1.sh
+  651  sh ex1.sh
+  652  ./ex1.sh
+  653  git add .
+  654  git commit -m "change first ex"
+  655  git push
+  656  ./ex1.sh
+  657  git add .
+  658  git commit -m "Change first task"
+  659  git push
+  660  ls | rev
+  661  ls
+  662  ls | rev
+  663  ls | rev | rev
+  664  ./ex3.sh
+  665  sh ex3.sh
+  666  ls -lt
+  667  ls -lt | rev
+  668  ls | rev
+  669  ls | sort -n -r
+  670  ls -lt | sort -n -r
+  671  ls -I
+  672  ls -l
+  673  ls -l | sort -t "," -nk2,5
+  674  ls -l | sort -t -nk2,5
+  675  ls -l | sort -t "," -nk2,5
+  676  ls -l
+  677  ls -l | sort -t
+  678  ls -l | sort -t ","
+  679  ls -l | sort -t "," -nk6 -k7
+  680  ls -l | sort -k 2
+  681  ls -l | sort -k 5
+  682  ls -l | sort -k 6
+  683  ls -l | sort -k 7
+  684  ls -l | sort -k 6
+  685  ls -l | sort -k 5
+  686  ls -l | sort -k 6
+  687  ls -l | sort -k 7
+  688  ls -l | sort -k 1
+  689  ls -l | sort -k 4
+  690  ls
+  691  ls -l
+  692  ls -lt
+  693  ls -lt | sort
+  694  ls -lt | sort -k 1
+  695  ls -lt | sort -k 2
+  696  ls -lt | sort -k 7 -k 8
+  697  ls -lt | sort -r -k 7 -k 8
+  698  sh ex3.sh
+  699  ls -l
+  700  ls -lt
+  701  ls -lt | rev
+  702  ls -lt -r
+  703  ls -lt
+  704  ls -lt -r
+  705  sh ex3.sh
+  706  git add .
+  707  git commit "Change 3 Task"
+  708  git commit -m  "Change 3 Task"
+  709  git push
+  710  ls -lt -r
+  711  ls -lt -r /
+  712  ls -lt -r ~/
+  713  ls -lt ~/
+  714  ls -tr
+  715  ls
+  716  history
+  717  sh ex2.sh
+  718  history > ex2.txt
+  719  vi ex2.sh
+  720  sh ex2.sh
+  721  history
+  722  history > ex2.txt
+  723  ./ex2.sh

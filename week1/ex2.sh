@@ -1,1 +1,1 @@
-history | tail -n 5 > ex2.txt
+history > ex2.txt

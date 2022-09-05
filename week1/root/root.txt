@@ -18,9 +18,9 @@ drwxr-xr-x  13 root root          4096 авг 20 00:20 snap
 drwxr-xr-x   4 root root          4096 авг 24 06:18 boot
 drwxr-xr-x   6 root root          4096 авг 25 11:35 opt
 drwxr-xr-x 134 root storage      12288 сен  2 10:06 etc
-dr-xr-xr-x  13 root root             0 сен  4 16:55 sys
-dr-xr-xr-x 436 root root             0 сен  4 16:55 proc
-drwxr-xr-x  20 root root          4640 сен  4 16:55 dev
 drwx------  11 root root          4096 сен  4 17:05 root
-drwxr-xr-x  35 root root           900 сен  5 13:01 run
-drwxrwxrwt  25 root root         20480 сен  5 13:02 tmp
+dr-xr-xr-x  13 root root             0 сен  5 15:44 sys
+dr-xr-xr-x 391 root root             0 сен  5 15:44 proc
+drwxr-xr-x  20 root root          4640 сен  5 15:44 dev
+drwxr-xr-x  35 root root           900 сен  5 15:45 run
+drwxrwxrwt  23 root root         20480 сен  5 15:49 tmp

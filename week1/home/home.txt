@@ -1,19 +1,20 @@
-arcadia
-cs
-Desktop
-docs.yandex-team.ru
-Documents
-Downloads
-Help_Scala
-Idea
-IdeaProjects
-Music
-OS
-Pictures
-Public
-snap
-Templates
-text.txt
-ubuntu-20.04.2.0-desktop-amd64.iso
-Videos
-YANDEX-BROWSER-KEY.GPG
+total 62280
+-rw-r--r-- 1 root        root            3137 авг 16  2017 YANDEX-BROWSER-KEY.GPG
+drwxr-xr-x 2 nfedorovich nfedorovich     4096 авг  6 22:20 Videos
+drwxr-xr-x 2 nfedorovich nfedorovich     4096 авг  6 22:20 Templates
+drwxr-xr-x 2 nfedorovich nfedorovich     4096 авг  6 22:20 Public
+drwxr-xr-x 2 nfedorovich nfedorovich     4096 авг  6 22:20 Music
+drwxr-xr-x 2 nfedorovich nfedorovich     4096 авг  6 22:20 Documents
+-rw-rw-r-- 1 nfedorovich nfedorovich     1752 авг  7 23:20 docs.yandex-team.ru
+drwxr-xr-x 5 nfedorovich nfedorovich     4096 авг  8 19:11 Desktop
+drwxrwxr-x 3 nfedorovich nfedorovich     4096 авг 10 17:40 Help_Scala
+-rw-rw-r-- 1 nfedorovich nfedorovich      282 авг 11 12:04 ubuntu-20.04.2.0-desktop-amd64.iso
+-rwxrwxr-x 1 nfedorovich nfedorovich 63691040 авг 11 14:29 cs
+drwxrwxr-x 3 nfedorovich nfedorovich     4096 авг 11 15:13 Idea
+drwxrwxr-x 6 nfedorovich nfedorovich     4096 авг 11 16:40 IdeaProjects
+-rw-r--r-- 1 nfedorovich nfedorovich       39 авг 12 13:31 text.txt
+drwx------ 5 nfedorovich nfedorovich     4096 авг 20 00:25 snap
+drwxrwxr-x 4 nfedorovich nfedorovich     4096 сен  2 10:29 OS
+drwxrwxr-x 1 nfedorovich nfedorovich     4096 сен  2 11:21 arcadia
+drwxr-xr-x 2 nfedorovich nfedorovich    12288 сен  3 21:18 Pictures
+drwxr-xr-x 3 nfedorovich nfedorovich     4096 сен  5 10:37 Downloads

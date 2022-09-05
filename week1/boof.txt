@@ -1,5 +1,0 @@
-/usr/bin/x86_64-linux-gnu-gcc-ranlib-9
-/usr/bin/c89-gcc
-/usr/bin/x86_64-linux-gnu-gcc-ar-9
-/usr/bin/gcc-ar
-/usr/bin/x86_64-linux-gnu-gcc-ranlib

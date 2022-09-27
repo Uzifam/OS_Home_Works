@@ -6,7 +6,6 @@
 
 int main ( void ) {
     int CommonAncestorPid = getpid();
-//    printf("MAIN PID:%d\n", CommonAncestorPid);
     fork();
     fork();
     clock_t t = clock();

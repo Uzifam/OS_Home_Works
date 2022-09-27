@@ -1,0 +1,1 @@
+With n = 3, there were 8 processes in total. With n = 5 , there were 32 processes in total . Thus, because at each pass of the cycle, 2 times more subprocesses will be created => the number of processes in total = 2 ^n.

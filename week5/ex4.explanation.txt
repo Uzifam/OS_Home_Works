@@ -1,0 +1,1 @@
+The events happened as expected. Initially, the time decreases because the process was divided into cores, after that the time increased, because there are many cores.

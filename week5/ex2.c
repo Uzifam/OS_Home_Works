@@ -15,7 +15,7 @@ int j = 0;
 
 void * func(void *arg) {
     thread[j].i = j;
-   strcpy(thread[j].message, "Thread ");
+    strcpy(thread[j].message, "Thread ");
     char boof[10];
     sprintf(boof, "%d", j);
     strcat(thread[j].message, boof);
@@ -27,13 +27,13 @@ int main(void) {
 
     for(j = 0; j < 10; ++j){
         pthread_create(&(thred[j]), NULL, &func, (void *)(&(thred[j])));
-        printf("Hello from thread: %d\n", j);
-        printf("Thread %d exits\n", j);
+        printf("Hello from thread: %ld\n", pthread_self());
+        printf("Thread %ld exits\n", pthread_self());
         pthread_join(thred[j], NULL);
     }
 
 
-     pthread_exit(NULL);
+    pthread_exit(NULL);
 
 
 

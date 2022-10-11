@@ -1,0 +1,1 @@
+The first task had the highest "Average Turnaround time" and "". The second task had the lowest "Average Turnaround time" and "Average waiting time". In the third task, there were averages. However, the trind case would be better for the user system, because it guarantees not to freeze the system and each process doesn't freezes.

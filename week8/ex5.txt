@@ -1,0 +1,2 @@
+Physical memory means that, for example, cell 25 will lie in the 25th place, i.e. the physical memory address is the actual address. 
+On the other hand, virtual memory is an abstraction of memory in which all memory is divided into pages and at the same time, each page has some encoding for mapping to physical memory or indicating that this memory is on RAM and it is loaded on hard drives or similar slow media.

@@ -1,0 +1,7 @@
+8 GB is 2^13 bits.
+ On the other hand, the machine has 16-bit virtual addresses. 
+Therefore:
+2^16 / 2^13 = 8
+
+
+Ansewer: We need 8 entries.

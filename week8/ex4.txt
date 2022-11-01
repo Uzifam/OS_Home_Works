@@ -1,0 +1,10 @@
+memory usage: 26580
+memory usage: 52660
+memory usage: 78268
+memory usage: 103876
+memory usage: 129484
+memory usage: 155092
+memory usage: 180700
+memory usage: 206308
+memory usage: 231916
+memory usage: 257524

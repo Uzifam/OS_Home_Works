@@ -1,3 +1,1 @@
-The Top command gives information about processes and their memory costs and CPU% and other information.
- During the work of the program ./ex2&, it was found out that free memory decreases and used increases, however, 
- with some fluctuations due to the fact that many, sometimes even more resource-intensive processes occur on the computer every moment of time.
+In this task, after the command "top -d 1", resources and other system characteristics began to pop up with a refresh rate of 1 second. It was also found that free memory decreases and occupied memory increases. However, it was not possible to install it the first time, because the amount of allocated memory is very small compared to the RAM of my computer, in which different processes start and end every moment.

@@ -1,0 +1,7 @@
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 1 2 3 4 5 6 7 8 9 10 11 12 13 100 1212 1312 11 2345 1234
+
+For this test, for the number of page frame = 10, the answer will be 1. However, for 50 and 100, it is already 14.
+This will happen because at the moment of the "repetition" of the numbers, the page numbers (in virtual memory) will already be completely updated, however, for a larger value of physical memory (more precisely, the number of pages in it) they will still be there. Thus, the number of hits depends on the number of page frame.
+ Also, do not forget about the number of allocated bits, because the more bits, the longer it takes to track when the page was last taken.
+ I can't show it on my tests, because in theory the test
+2 1 3 4 5 6 7 8 9 10 2 conveys this meaning, however, only when the update occurs every k seconds ,

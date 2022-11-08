@@ -20,7 +20,7 @@ void someFunction(int numberPageFrame) {
     int hits = 0, misses = 0;
     SimulationOfAgeing(&hits, &misses, numberPageFrame);
 
-    printf("Number of Page Frame: %d;\nHits: %d;\nMisses: %d.\n\n", numberPageFrame, hits, misses);
+    printf("Hits: %d;\nMisses: %d;\nRatio: %f\n\n", numberPageFrame, hits, misses, (float) hits / misses);
 }
 
 void SimulationOfAgeing(int *hit, int *miss, int pageFrame){

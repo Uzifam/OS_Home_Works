@@ -1,0 +1,2 @@
+/home/nfedorovich/OS/OS_Home_Works/week1/file.txt
+/home/nfedorovich/OS/OS_Home_Works/week10/_ex2.txt
